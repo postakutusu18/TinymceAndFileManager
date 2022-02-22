@@ -1,0 +1,44 @@
+{
+  "id": "3168527",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1190662",
+      "name": "approval",
+      "font_class": "approval",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1190663",
+      "name": "alarm_clock",
+      "font_class": "alarm_clock",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1190666",
+      "name": "assistant",
+      "font_class": "assistant",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6145946",
+      "name": "next",
+      "font_class": "next",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "6145972",
+      "name": "previous",
+      "font_class": "previous",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    }
+  ]
+}

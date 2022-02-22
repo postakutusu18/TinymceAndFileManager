@@ -1,0 +1,90 @@
+.elfinder .elfinder-navbar {
+    border-right: 1px solid #e5e5e5;
+    background: #2d3047;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+    .elfinder .elfinder-navbar .elfinder-navbar-dir {
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+        .elfinder .elfinder-navbar .elfinder-navbar-dir:hover {
+            background: #0cce6b;
+        }
+
+        .elfinder .elfinder-navbar .elfinder-navbar-dir.ui-state-active {
+            background: #0cce6b;
+        }
+
+            .elfinder .elfinder-navbar .elfinder-navbar-dir.ui-state-active:hover {
+                background: #0cce6b;
+            }
+
+    .elfinder .elfinder-navbar .elfinder-navbar-arrow {
+        transform: rotate(-90deg);
+        background-image: url('../images/16px/arrow.svg');
+        background-size: contain;
+        width: 10px;
+        height: 10px;
+    }
+
+.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow {
+    /* */
+    background-image: url('../images/16px/arrow.svg');
+    transform: rotate(90deg);
+}
+
+.elfinder .elfinder-navbar .elfinder-navbar-icon {
+    background-color: transparent;
+    background-image: url('../images/16px/folder.svg') !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+.elfinder .elfinder-navbar-expanded.ui-state-active .elfinder-navbar-icon {
+    background-image: url('../images/16px/opened_folder.svg') !important;
+}
+
+.elfinder .elfinder-navbar-root > .elfinder-navbar-icon {
+    /* */
+}
+
+
+.elfinder .elfinder-navbar-root.elfinder-navbar-expanded > .elfinder-navbar-icon {
+    /* */
+}
+
+
+.elfinder .elfinder-navbar .ui-resizable-handle.ui-resizable-e {
+    /* */
+}
+
+.elfinder-ltr .elfinder-navbar-subtree {
+    margin: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+    .elfinder-ltr .elfinder-navbar-subtree .elfinder-navbar-subtree {
+        padding-left: 15px;
+    }
+
+.elfinder-navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100% !important;
+    overflow-x: hidden;
+}

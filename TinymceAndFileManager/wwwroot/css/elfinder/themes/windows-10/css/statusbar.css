@@ -1,0 +1,36 @@
+.elfinder .elfinder-statusbar {
+    background: #2f2d2e;
+    height:40px;
+    display:flex;
+    align-items:center;
+}
+.elfinder .elfinder-statusbar .elfinder-stat-size {
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-size:1.2em;
+}
+.elfinder .elfinder-statusbar .elfinder-path {}
+
+.elfinder-path span {
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-size: 1.2em;
+}
+
+.elfinder .elfinder-statusbar .elfinder-path a {
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-size: 1.2em;
+}
+
+.elfinder .elfinder-statusbar .elfinder-stat-selected {
+    font-family: Poppins,sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.elfinder .elfinder-statusbar .elfinder-stat-size {
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-size: 1.2em;
+}
